@@ -166,7 +166,7 @@ export default function LiveBracketView({ initialEvent }) {
           <p className="section-kicker">{liveEvent.tournament?.game} · Live tournament</p>
           <h1>{liveEvent.tournament?.name}</h1>
         </div>
-        <div className="live-page-status"><span aria-hidden="true" /><strong>Live</strong><small>{liveEvent.format}</small></div>
+        <div className="live-page-status"><small>{liveEvent.format}</small></div>
       </header>
 
       <section className="dedicated-bracket" aria-labelledby="bracket-title">

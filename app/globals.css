@@ -955,30 +955,14 @@ a {
 }
 
 .live-page-status {
-  display: grid;
-  grid-template-columns: auto auto;
+  display: flex;
   align-items: center;
-  gap: 4px 10px;
   padding: 13px 16px;
   background: rgba(230, 195, 152, 0.045);
   border: 1px solid rgba(230, 195, 152, 0.16);
 }
 
-.live-page-status > span {
-  width: 8px;
-  height: 8px;
-  background: #e05a50;
-  box-shadow: 0 0 0 5px rgba(224, 90, 80, 0.1), 0 0 18px rgba(224, 90, 80, 0.55);
-}
-
-.live-page-status strong {
-  color: #f0c7c2;
-  font-size: 0.75rem;
-  text-transform: uppercase;
-}
-
 .live-page-status small {
-  grid-column: 1 / -1;
   color: rgba(230, 195, 152, 0.42);
   font-size: 0.75rem;
   text-transform: uppercase;
